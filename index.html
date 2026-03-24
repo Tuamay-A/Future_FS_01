@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Tuamay.</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="status-indicator">
+          <span class="status-dot"></span>
+          <span class="status-text">Available for work</span>
+        </div>
+        <h3>Hello I'M</h3>
+        <h1>Tuamay Assefa</h1>
+        <h3><span class="text"></span></h3>
+        <p>
+          I build modern scalable web applications with a focus on user
+          experience and performance.passinate about creating seamless digital
+          experiences.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/Tuamay-Assefa" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/tuamay-assefa" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://wa.me/251911111111" target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </div>
+        <div class="btn-group">
+          <a href="resume.pdf" class="btn" download>Download CV</a>
+          <a href="#portfolio" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="myPhoto.jpg" alt="My Photo" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="heading">About <span class="gradient-text">Me</span></h2>
+      <div class="about-content-container">
+        <div class="about-grid">
+          <div class="grid-item">
+            <h4>Experience</h4>
+            <span
+              >Full-Stack Developer Intern at Future Interns | Mobile
+              Application at UnlockGen
+            </span>
+          </div>
+          <div class="grid-item">
+            <h4>Education</h4>
+            <span>B.S. in Computer Science</span>
+          </div>
+          <div class="grid-item">
+            <h4>Passion</h4>
+            <span>Aspiring Software Engineer</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            Currently pursuing my degree in Computer Science with a high
+            academic standing, my journey in technology is driven by a
+            relentless curiosity for how things work under the hood. I am
+            passionate about full stack and application development, with a
+            focus on creating seamless digital experiences. With a strong
+            foundation in both frontend and backend development, I am committed
+            to building modern, scalable applications that prioritize user
+            experience and performance.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <!-- Frontend Skills -->
+        <div class="skills-box">
+          <div class="skills-header" onclick="toggleSkills(this)">
+            <i class="bx bx-code-alt"></i>
+            <h3>Frontend Skills</h3>
+            <i class="bx bx-chevron-down arrow"></i>
+          </div>
+          <div class="skills-content">
+            <div class="skills-row">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML</span>
+                  <div class="progress-circle" data-percent="90">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">90%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>CSS</span>
+                  <div class="progress-circle" data-percent="85">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">85%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <div class="progress-circle" data-percent="75">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">75%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>React</span>
+                  <div class="progress-circle" data-percent="75">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">75%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Flutter</span>
+                  <div class="progress-circle" data-percent="75">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="skills-box">
+          <div class="skills-header" onclick="toggleSkills(this)">
+            <i class="bx bx-server"></i>
+            <h3>Backend Skills</h3>
+            <i class="bx bx-chevron-down arrow"></i>
+          </div>
+          <div class="skills-content">
+            <div class="skills-row">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Node.js</span>
+                  <div class="progress-circle" data-percent="65">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">65%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Express.js</span>
+                  <div class="progress-circle" data-percent="70">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">70%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>MongoDB</span>
+                  <div class="progress-circle" data-percent="70">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">70%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>MySQL</span>
+                  <div class="progress-circle" data-percent="70">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skills-box">
+          <div class="skills-header" onclick="toggleSkills(this)">
+            <i class="bx bx-wrench"></i>
+            <h3>Tools</h3>
+            <i class="bx bx-chevron-down arrow"></i>
+          </div>
+          <div class="skills-content">
+            <div class="skills-row">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Git</span>
+                  <div class="progress-circle" data-percent="80">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">80%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>VS Code</span>
+                  <div class="progress-circle" data-percent="60">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">60%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Postman</span>
+                  <div class="progress-circle" data-percent="60">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-box">
+          <div class="skills-header" onclick="toggleSkills(this)">
+            <i class="bx bx-user-voice"></i>
+            <h3>Soft Skills</h3>
+            <i class="bx bx-chevron-down arrow"></i>
+          </div>
+          <div class="skills-content">
+            <div class="skills-row">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Teamwork</span>
+                  <div class="progress-circle" data-percent="95">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">95%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Problem Solving</span>
+                  <div class="progress-circle" data-percent="90">
+                    <svg>
+                      <circle cx="35" cy="35" r="30"></circle>
+                      <circle cx="35" cy="35" r="30" class="progress"></circle>
+                    </svg>
+                    <span class="percent">90%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <!-- Project 1 -->
+        <div class="portfolio-card">
+          <div class="project-info">
+            <h4>Personal Portfolio</h4>
+            <p>
+              A responsive personal portfolio website showcasing projects,
+              skills, and contact information.
+            </p>
+            <div class="project-skills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a
+                href="https://github.com/user/project1"
+                target="_blank"
+                class="repo-link"
+                ><i class="bx bxl-github"></i> Repo</a
+              >
+              <a
+                href="https://demo.com/project1"
+                target="_blank"
+                class="live-link"
+                ><i class="bx bx-link-external"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-card">
+          <div class="project-info">
+            <h4>MERN Stack CRUD Application</h4>
+            <p>
+              A full-stack web application built with MongoDB, Express.js,
+              React, and Node.js for managing and displaying data.
+            </p>
+            <div class="project-skills">
+              <span>React</span>
+              <span>Express.js</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank" class="repo-link"
+                ><i class="bx bxl-github"></i> Repo</a
+              >
+              <a href="#" target="_blank" class="live-link"
+                ><i class="bx bx-link-external"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-card">
+          <div class="project-info">
+            <h4>Task Management System</h4>
+            <p>
+              A collaborative tool for team project tracking with real-time
+              updates and priority management features.
+            </p>
+            <div class="project-skills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank" class="repo-link"
+                ><i class="bx bxl-github"></i> Repo</a
+              >
+              <a href="#" target="_blank" class="live-link"
+                ><i class="bx bx-link-external"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="project-info">
+            <h4>Hospital Management System</h4>
+            <p>
+              A comprehensive Desktop application for managing hospital
+              operations, including patient records, appointment scheduling, and
+              staff management.
+            </p>
+            <div class="project-skills">
+              <span>javaFX</span>
+              <span>MySQL</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank" class="repo-link"
+                ><i class="bx bxl-github"></i> Repo</a
+              >
+              <a href="#" target="_blank" class="live-link"
+                ><i class="bx bx-link-external"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="project-info">
+            <h4>Flight Booking App</h4>
+            <p>
+              A user-friendly mobile application for booking flights, managing
+              reservations, and providing real-time flight information.
+            </p>
+            <div class="project-skills">
+              <span>Flutter</span>
+              <span>REST API</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank" class="repo-link"
+                ><i class="bx bxl-github"></i> Repo</a
+              >
+              <a href="#" target="_blank" class="live-link"
+                ><i class="bx bx-link-external"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Let's Talk</h3>
+          <p>Have a project in mind? Let's build something amazing together.</p>
+          <div class="contact-social">
+            <a href="https://linkedin.com/in/tuamay-assefa" target="_blank"
+              ><i class="bx bxl-linkedin-square"></i><span>LinkedIn</span></a
+            >
+            <a href="https://github.com/Tuamay-Assefa" target="_blank"
+              ><i class="bx bxl-github"></i><span>GitHub</span></a
+            >
+            <a href="https://wa.me/251911111111" target="_blank"
+              ><i class="bx bxl-whatsapp"></i><span>WhatsApp</span></a
+            >
+          </div>
+        </div>
+
+        <form id="contact-form">
+          <div class="input-box">
+            <input
+              type="text"
+              id="full-name"
+              placeholder="Full Name"
+              required
+            />
+            <input type="email" id="email" placeholder="Enter Email" required />
+          </div>
+          <div class="input-box">
+            <input type="number" id="mobile" placeholder="Mobile Number" />
+            <input
+              type="text"
+              id="subject"
+              placeholder="Email Subject"
+              required
+            />
+          </div>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter Message"
+            required
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+          <p id="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Developed &copy; 2026 By Tuamay Assefa. All rights reserved</p>
+      </div>
+      <div class="footer-icon">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
