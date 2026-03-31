@@ -55,6 +55,6 @@ personal-portfolio/
 
 ## Author
 **Tuamay Assefa**
-- GitHub: [@Tuamay-Assefa](https://github.com/Tuamay-Assefa)
+- GitHub: [@Tuamay-Assefa](https://github.com/Tuamay-A)
 - LinkedIn: [Tuamay Assefa](https://linkedin.com/in/tuamay-assefa)
 - Portfolio: [Live Demo](https://demo.com/portfolio)
