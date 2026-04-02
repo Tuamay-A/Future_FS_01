@@ -44,9 +44,7 @@ The primary goal of this project is to provide a professional online presence th
 personal-portfolio/
 │
 ├── images/               # Images and icons used in the site
-│   ├── myPhoto.jpg       # Profile photo
-│   └── port (01).jpg     # Portfolio background/assets
-│
+├── Screenshots/  
 ├── index.html            # Main HTML structure
 ├── style.css             # Stylesheets and theme configuration
 ├── script.js             # Client-side logic and animations
